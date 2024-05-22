@@ -1,0 +1,8 @@
+POST http://localhost:8000/export/
+Content-Type: application/json
+
+{
+  "aggregatorName": "Aggregator"
+}
+
+###
