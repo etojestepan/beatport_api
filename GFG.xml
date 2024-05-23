@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <release>
 	<aggregatorName>ONErpm</aggregatorName>
-	<labelName/>
-	<UPC_EAN>45674567</UPC_EAN>
+	<labelName>asdasda</labelName>
+	<UPC_EAN>45684568</UPC_EAN>
 	<catalogNumber>-1</catalogNumber>
-	<coverArtFilename>45674567.png</coverArtFilename>
-	<releaseTitle/>
-	<releaseSalesType/>
-	<tracks/>
+	<coverArtFilename>45684568.png</coverArtFilename>
+	<releaseTitle>asd</releaseTitle>
+	<releaseSalesType>release</releaseSalesType>
+	<tracks>
+		<track>
+			<albumOnly>0</albumOnly>
+			<trackNumber>1</trackNumber>
+			<trackPublisher>asdasd</trackPublisher>
+			<trackTitle>Говно, залупа, пенис, хер, давалка, хуй, блядина...</trackTitle>
+			<trackMixVersion>asdasd</trackMixVersion>
+			<originalReleaseDate>asdasd</originalReleaseDate>
+			<beatportExclusive>
+				<exclusivePeriod>0</exclusivePeriod>
+			</beatportExclusive>
+			<trackArtists>
+				<artistName>Undervis</artistName>
+			</trackArtists>
+			<trackRemixers>
+				<remixerName>Oxxxymiron</remixerName>
+			</trackRemixers>
+			<trackAudioFile>
+				<audioFilename>45684568_1.wav</audioFilename>
+			</trackAudioFile>
+			<countriesAvailable>
+				<country>RU</country>
+			</countriesAvailable>
+			<trackGenre>Rap</trackGenre>
+			<trackCopyright>sdsdfsdf</trackCopyright>
+			<songwriters>
+				<songwriter>
+					<name>Константин</name>
+					<type>author</type>
+				</songwriter>
+			</songwriters>
+		</track>
+	</tracks>
 </release>
