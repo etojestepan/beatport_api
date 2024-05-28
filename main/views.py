@@ -10,6 +10,7 @@ def export(request):
     print(data_json)
 
     data = ET.Element('release')
+    ET.SubElement(data, 'album_action').text = str(data_json['albumaction'])
     ET.SubElement(data, 'aggregatorName').text = str(data_json['aggregatorName'])
     ET.SubElement(data, 'labelName').text = str(data_json['labelName'])
     ET.SubElement(data, 'UPC_EAN').text = str(data_json['UPC_EAN'])
@@ -43,9 +44,7 @@ def export(request):
             songwriter = ET.SubElement(songwriters, 'songwriter')
             ET.SubElement(songwriter, 'name').text = str(data_json['tracks'][i]['songwriters'][s]['name'])
             ET.SubElement(songwriter, 'type').text = str(data_json['tracks'][i]['songwriters'][s]['type'])
-
     with open("GFG.xml", "wb") as f:
         pretty_xml = minidom.parseString(ET.tostring(data))
         f.write(pretty_xml.toprettyxml(encoding='utf-8'))
-
     return FileResponse(open('GFG.xml', 'rb'))

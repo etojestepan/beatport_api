@@ -1,70 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <release>
 	<aggregatorName>ONErpm</aggregatorName>
-	<labelName>Label Name</labelName>
-	<UPC_EAN>123456789</UPC_EAN>
-	<catalogNumber>123456789</catalogNumber>
-	<coverArtFilename>123456789.png</coverArtFilename>
-	<releaseTitle>Release Title</releaseTitle>
-	<releaseSalesType>xz</releaseSalesType>
+	<labelName>123123</labelName>
+	<UPC_EAN>-1</UPC_EAN>
+	<catalogNumber>-1</catalogNumber>
+	<coverArtFilename>123123</coverArtFilename>
+	<releaseTitle>123123</releaseTitle>
+	<releaseSalesType>release</releaseSalesType>
 	<tracks>
 		<track>
 			<albumOnly>0</albumOnly>
 			<trackNumber>1</trackNumber>
-			<trackPublisher>Pablisher)</trackPublisher>
-			<trackTitle>Track</trackTitle>
-			<trackMixVersion>Original блин</trackMixVersion>
-			<originalReleaseDate>02-02-2002</originalReleaseDate>
+			<trackPublisher>231231</trackPublisher>
+			<trackTitle>213123</trackTitle>
+			<trackMixVersion>1231</trackMixVersion>
+			<originalReleaseDate>123123</originalReleaseDate>
 			<beatportExclusive>
 				<exclusivePeriod>0</exclusivePeriod>
 			</beatportExclusive>
 			<trackArtists>
-				<artistName>Artist 1</artistName>
-				<artistName>Artist 2</artistName>
+				<artistName>132132</artistName>
 			</trackArtists>
 			<trackAudioFile>
-				<audioFilename>123456789_1.wav</audioFilename>
+				<audioFilename>-1_1.flac</audioFilename>
 			</trackAudioFile>
 			<countriesAvailable>
-				<country>EU</country>
+				<country>123123</country>
 			</countriesAvailable>
-			<trackGenre>Electronic</trackGenre>
-			<trackCopyright>Label Copyright</trackCopyright>
+			<trackGenre>1231</trackGenre>
+			<trackCopyright>23123123</trackCopyright>
 			<songwriters>
 				<songwriter>
-					<name>Last Name</name>
-					<type>author</type>
-				</songwriter>
-				<songwriter>
-					<name>Last Name2</name>
-					<type>author</type>
-				</songwriter>
-			</songwriters>
-		</track>
-		<track>
-			<albumOnly>0</albumOnly>
-			<trackNumber>2</trackNumber>
-			<trackPublisher>Pablisher)2</trackPublisher>
-			<trackTitle>Track2 </trackTitle>
-			<trackMixVersion>орига</trackMixVersion>
-			<originalReleaseDate>02-02-2002</originalReleaseDate>
-			<beatportExclusive>
-				<exclusivePeriod>0</exclusivePeriod>
-			</beatportExclusive>
-			<trackArtists>
-				<artistName>фио1</artistName>
-			</trackArtists>
-			<trackAudioFile>
-				<audioFilename>123456789_2.wav</audioFilename>
-			</trackAudioFile>
-			<countriesAvailable>
-				<country>ZXX</country>
-			</countriesAvailable>
-			<trackGenre>Electronic</trackGenre>
-			<trackCopyright>капирайт))</trackCopyright>
-			<songwriters>
-				<songwriter>
-					<name>артист1</name>
+					<name>21323</name>
 					<type>author</type>
 				</songwriter>
 			</songwriters>
