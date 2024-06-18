@@ -33,9 +33,10 @@ def export(request):
         artist = ET.SubElement(track, 'trackArtists')
         for a in range(len(data_json['tracks'][i]['trackArtists'])):
             ET.SubElement(artist, 'artistName').text = str(data_json['tracks'][i]['trackArtists'][a]['artistName'])
-        remixers = ET.SubElement(track, 'trackRemixers')
-        for r in range(len(data_json['tracks'][i]['trackRemixers'])):
-            ET.SubElement(remixers, 'remixerName').text = str(data_json['tracks'][i]['trackRemixers'][r]['remixerName'])
+        if len(data_json['tracks'][i]['trackRemixers']) > 0:
+            remixers = ET.SubElement(track, 'trackRemixers')
+            for r in range(len(data_json['tracks'][i]['trackRemixers'])):
+                ET.SubElement(remixers, 'remixerName').text = str(data_json['tracks'][i]['trackRemixers'][r]['remixerName'])
         audio = ET.SubElement(track, 'trackAudioFile')
         ET.SubElement(audio, 'audioFilename').text = str(data_json['tracks'][i]['audioFilename'])
         country = ET.SubElement(track, 'countriesAvailable')

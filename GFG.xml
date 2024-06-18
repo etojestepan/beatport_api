@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <release>
+	<album_action>insert</album_action>
 	<aggregatorName>ONErpm</aggregatorName>
-	<labelName>123123</labelName>
-	<UPC_EAN>-1</UPC_EAN>
-	<catalogNumber>-1</catalogNumber>
-	<coverArtFilename>123123</coverArtFilename>
-	<releaseTitle>123123</releaseTitle>
+	<labelName>213213</labelName>
+	<UPC_EAN>123123</UPC_EAN>
+	<catalogNumber>123123</catalogNumber>
+	<coverArtFilename>123123.png</coverArtFilename>
+	<releaseTitle> (Original Mix)</releaseTitle>
 	<releaseSalesType>release</releaseSalesType>
 	<tracks>
 		<track>
 			<albumOnly>0</albumOnly>
 			<trackNumber>1</trackNumber>
-			<trackPublisher>231231</trackPublisher>
-			<trackTitle>213123</trackTitle>
-			<trackMixVersion>1231</trackMixVersion>
+			<trackPublisher>ONErpm</trackPublisher>
+			<trackTitle>123123</trackTitle>
+			<trackMixVersion>Original Mix</trackMixVersion>
 			<originalReleaseDate>123123</originalReleaseDate>
 			<beatportExclusive>
 				<exclusivePeriod>0</exclusivePeriod>
 			</beatportExclusive>
 			<trackArtists>
-				<artistName>132132</artistName>
+				<artistName>123123</artistName>
 			</trackArtists>
 			<trackAudioFile>
-				<audioFilename>-1_1.flac</audioFilename>
+				<audioFilename>123123_1.flac</audioFilename>
 			</trackAudioFile>
 			<countriesAvailable>
-				<country>123123</country>
+				<country>WW</country>
 			</countriesAvailable>
-			<trackGenre>1231</trackGenre>
-			<trackCopyright>23123123</trackCopyright>
+			<trackGenre>123123</trackGenre>
+			<trackCopyright>213213</trackCopyright>
 			<songwriters>
 				<songwriter>
-					<name>21323</name>
+					<name>23123</name>
 					<type>author</type>
 				</songwriter>
 			</songwriters>
